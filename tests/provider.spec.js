@@ -20,7 +20,7 @@ describe("Pact Verification", () => {
                 ),
             ],
         };
-        // Verify the provider with the pact file then stop the server
+        // Verify the provider with the pact file then stop
         return new Verifier(options)
             .verifyProvider()
             .then(() => {
