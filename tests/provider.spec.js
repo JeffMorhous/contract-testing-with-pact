@@ -8,7 +8,7 @@ describe("Pact Verification", () => {
     it("verifies the provider", () => {
         const options = {
             provider: "todo_provider",
-            providerBaseUrl: "http://localhost:5000",
+            providerBaseUrl: "http://localhost:3000",
             disableSSLVerification: true,
             logLevel: 'DEBUG',
             pactUrls: [
